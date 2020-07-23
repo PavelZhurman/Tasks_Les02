@@ -11,16 +11,16 @@ public class ThirteenthTask {
 		int x = 1;
 		int sum = 0;
 
-		System.out.println("Введите число");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®");
 		if (in.hasNextInt()) {
 			a = in.nextInt();
 
 			in.close();
 			if (a < 0) {
-				System.out.println("Число должно быть положительным");
+				System.out.println("Г—ГЁГ±Г«Г® Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЇГ®Г«Г®Г¦ГЁГІГҐГ«ГјГ­Г»Г¬");
 			} else {
 
-				System.out.print("Сумма чисел от 1 до " + a + " включительно = ");
+				System.out.print("Г‘ГіГ¬Г¬Г  Г·ГЁГ±ГҐГ« Г®ГІ 1 Г¤Г® " + a + " ГўГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­Г® = ");
 				while (x <= a) {
 
 					sum += x;
@@ -31,7 +31,7 @@ public class ThirteenthTask {
 				System.out.println(sum);
 			}
 		} else {
-			System.out.println("Число должно быть целым");
-		}
+			System.out.println("Г—ГЁГ±Г«Г® Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј Г¶ГҐГ«Г»Г¬");
+		} 
 	}
 }
